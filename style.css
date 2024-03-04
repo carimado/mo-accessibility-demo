@@ -1,18 +1,27 @@
 body {
     background-color: #08415c;
-    color: antiquewhite;
+    color: #faebd7;
 }
-
-nav li {
+.skip {
+    display: none;
+}
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    border: 1px red solid;
+    padding: 20px 10px;
+}
+li {
     list-style: none;
     padding: 0px 10px;
     
 }
-nav {
-    display: flex;
-    justify-content: flex-end;
-    border: 1px red solid;
-}
 a {
     color: antiquewhite;
+}
+.logo {
+    border: 1px green solid;
+}
+nav {
+    border: 1px pink solid;
 }
