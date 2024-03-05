@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #08415c;
+    background-color: #028090;
     color: #faebd7;
 }
 .skip {
@@ -17,18 +17,26 @@ nav {
     display: flex;
     justify-content: space-between;
     padding: 10px;
+  
+    
 }
 
-nav ul {
+.navlinks {
     display: flex;
     justify-content: flex-end;
     border: 1px red solid;
-    /* padding: 20px 10px; */
+    padding: 15px 10px; 
 }
-
+.bookclass {
+    background: #052942;
+    /* font-size: 20px; */
+    font-weight: bold;
+    border-radius: 10px;
+    /* padding:  10px 20px; */
+}
 li {
     list-style: none;
-    padding: 0px 10px;
+    padding: 10px 15px;
     
 }
 
@@ -40,9 +48,9 @@ a {
     border: 1px green solid;
 }
 
-nav > p {
+.logo {
     align-items: center;
-    justify-content: flex-end;
+    justify-content: flex-start
 }
 
 .container {
