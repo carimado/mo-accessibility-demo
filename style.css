@@ -5,8 +5,8 @@
 }
 
 body {
-    background-color: #84adb1;
-    color: #faebd7;
+    background-color: #ffffff;
+    color: #000000;
 }
 .skip {
     display: none;
@@ -59,4 +59,46 @@ a {
 
 a:hover {
     color: red;
+}
+
+/* HERO */
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vw;
+    max-height: 400px;
+    border: red 1px solid;
+}
+
+/* MAIN */
+
+main {
+    border: rgb(147, 0, 140) 1px solid;
+    position: absolute;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aqua;
+}
+
+.main-content-left {
+    width: 50%;
+    border: 1px solid;
+}
+
+
+.main-content-right {
+    width: 50%;
+    border: 1px solid;
+}
+
+/* FOOTER */
+footer {
+    border: rgb(19, 94, 0) 1px solid;
+    /* position: fixed; */
+    left: 0;
+    bottom: 0px;
+    width: 100%;
 }
