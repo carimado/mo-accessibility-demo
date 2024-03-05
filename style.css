@@ -27,18 +27,23 @@ header {
 }
 
 nav {
-    border: 1px pink solid;
+    /* border: 1px pink solid; */
     display: flex;
     justify-content: space-between;
     padding: 10px;
-  
-    
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+nav > img {
+    height: 75px;
+    width: auto;
 }
 
 .navlinks {
     display: flex;
     justify-content: flex-end;
-    border: 1px red solid;
+    /* border: 1px red solid; */
     padding: 15px 10px; 
 }
 .bookclass {
@@ -51,15 +56,21 @@ nav {
 li {
     list-style: none;
     padding: 10px 15px;
-    
 }
 
-a {
-    color: antiquewhite;
+ul:nth-child(5) {
+    color: white;
+}
+
+nav, a {
+    color: #03333d;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
 }
 
 .logo {
-    border: 1px green solid;
+    /* border: 1px green solid; */
 }
 
 .logo {
