@@ -4,6 +4,7 @@
     margin: 0;
 	padding: 0px;
 	border: 0;
+    /* box-sizing: border-box; */
 }
 
 /* Body */
@@ -48,10 +49,26 @@ nav > img {
 }
 .bookclass {
     background: #052942;
+    border: #ffffff 2px solid;
     /* font-size: 20px; */
     font-weight: bold;
     border-radius: 10px;
+    letter-spacing: 0.5px;
     /* padding:  10px 20px; */
+}
+
+.bookclass:hover {
+    background-color: #ffffff;
+    border-color: #03333d;
+    border-radius: 10px;
+}
+
+.bookclass a {
+    color: white;
+}
+
+.bookclass:hover a {
+    color: #03333d;
 }
 li {
     list-style: none;
@@ -111,20 +128,45 @@ main {
 .main-content-left {
     width: 50%;
     border: 1px solid;
+    padding: 15px
 }
 
 
 .main-content-right {
     width: 50%;
     border: 1px solid;
+    line-height: 25px;
+    padding: 15px;
+    letter-spacing: 0.5px
+    
 }
 
 /* FOOTER */
 
 footer {
     border: rgb(19, 94, 0) 1px solid;
+    display: flex;
+    justify-content: space-evenly;
     /* position: fixed; */
-    left: 0;
-    bottom: 0px;
-    width: 100%;
+    /* left: 0; */
+    /* bottom: 0px;/ */
+    /* width: 100%; */
+}
+
+.footerleft {
+    border: #000000 1px solid;
+    padding: 15px;
+    width: 45%;
+}
+
+.footermiddle {
+    border: #000000 1px solid;
+    padding: 15px;
+    
+}
+
+.footerright {
+    border: #000000 1px solid;
+    padding: 15px;
+
 }
