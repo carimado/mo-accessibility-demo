@@ -205,3 +205,31 @@ footer {
     padding: 15px;
 
 }
+
+.contact-form {
+    /* border: 3px #5ebed1 solid; */
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+button {
+    background-color: white;
+    border: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.buttons button:first-child {
+    background-color: #5ebed1;
+}

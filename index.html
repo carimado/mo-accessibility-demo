@@ -51,10 +51,29 @@
             <p>Lorem ipsum dolor sit amet consectetur</p>
         </div>
     </section>
+    <div class="contact-form" id="contact-form-container">
+        <form>
+            <h2>How can we help?</h2>
+            <br>
+            <label for="email">Enter your email:</label>
+            <br>
+            <input type="text" class="email" placeholder="email">
+            <br>
+            <br>
+            <!-- <input type="text" class="description" placeholder="description"> -->
+            <label for="details">Tell us how we can help?</label><textarea id="w3review" name="w3review" rows="4" cols="50"></textarea>
+            <br>
+        </textarea>
+        <div class="buttons">
+            <button type="button" value="submit">Submit</button>
+            <button type="button" id="close-form-modal">Close</button>
+        </div>
+        </form>
+    </div>
     <!-- Footer -->
     <footer class="footer container">
         <div class="footerleft">
-            <h3>Our Goals</h3>
+            <h3 id="header3">Our Goals</h3>
                 <p>Lorem ipsum dolor sit amet aatus corporis sunt eaque et necessitatibus fuga fugit similique aspernatur distinctio magnam? Sed dolor asperiores quasi alias dignissimos!</p>
         </div>
         <div class="footermiddle">
@@ -63,7 +82,7 @@
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#resources">Resources</a></li>
-                    <li><a href="#contact">Contact Us</a></li>
+                    <li><a href="#contact" id="contact-form">Contact Us</a></li>
                 </ul>
             </div>
         </div>
@@ -73,5 +92,6 @@
                 <p>aufwenfwekfn@optout.com</p>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
