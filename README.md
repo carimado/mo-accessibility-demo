@@ -8,7 +8,7 @@ Stage 2 -
 1. Implement JS in form ✓
 2. Clean up text spacing and line-height ✓
 3. Alignment for the 3 images ✓
-4. Add dynamic features (accordion) 
+4. Add dynamic features (accordion) ✓
 5. Submenu
 
 Stage 3 - 
