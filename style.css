@@ -125,7 +125,7 @@ a:hover {
     width: 100vw;
     max-height: 400px;
     /* border: red 1px solid; */
-    background-image: url(/Assets/hero-image.jpg);
+    background-image: url(./Assets/hero-image.jpg);
     background-size: cover;
     min-height: 450px;
     /* border-radius: 10px; */
