@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessibility Best Practices</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header class="container">
+        <a class="skip" href="#main">Skip to Main Content</a>
+        <nav class="navbar">
+            <!-- <img class="logo" src="https://www.designedtoinspire.com/blog/wp-content/uploads/2019/05/accessibility-symbol.png" alt="logo"> -->
+            <p class="logo">Key <span class="logotwo">2</span>Ability</p>
+            <ul class="navlinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li class="bookclass"><a href="https://calendly.com/ozair-zaman" target="_blank">Book a Class</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Hero -->
+    
+    <!-- Main Content -->
+    <main id="main" class="container">
+        
+        <div class="main-content-left">
+            <h2>Template</h2>
+        </div>
+        <div class="main-content-right">
+            <p>Web Accessibility is all about making sure that all visitors to a website, regardless ability/situation have an equal expeirence.
+                This is so they can access the same information and services that are available to everyone such as online shopping, 
+                news articles, online banking, government services and more.</p>
+        </div>  
+    </main>
+    
+    
+    <div class="contact-form" id="contact-form-container">
+        <form>
+            <h2>How can we help?</h2>
+            <br>
+            <label for="email">Enter your email:</label>
+            <br>
+            <input type="text" class="email" placeholder="email">
+            <br>
+            <br>
+            <!-- <input type="text" class="description" placeholder="description"> -->
+            <label for="details">Tell us how we can help?</label><textarea id="w3review" name="w3review" rows="4" cols="50"></textarea>
+            <br>
+        </textarea>
+        <div class="buttons">
+            <button type="button" value="submit">Submit</button>
+            <button type="button" id="close-form-modal">Close</button>
+        </div>
+        </form>
+    </div>
+    <!-- Footer -->
+    <footer class="footer container">
+        <div class="footerleft">
+            <h3 id="header3">Our Goals</h3>
+                <p>Lorem ipsum dolor sit amet aatus corporis sunt eaque et necessitatibus fuga fugit similique aspernatur distinctio magnam? Sed dolor asperiores quasi alias dignissimos!</p>
+        </div>
+        <div class="footermiddle">
+            <h3>Site Nav</h3>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#contact" id="contact-form">Contact Us</a></li>
+            </ul>
+            </div>
+        </div>
+        <div class="footerright">
+            <h3>Get in touch</h3>
+                <p>0432885924</p>
+                <p>aufwenfwekfn@optout.com</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
